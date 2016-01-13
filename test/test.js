@@ -15,6 +15,7 @@ test( 'main export is a function', function test( t ) {
 
 test( 'the function rounds a numeric value to the nearest integer', function test( t ) {
 	t.equal( round( -4.2 ), -4, 'equals -4' );
+	t.equal( round( -4.5 ), -4, 'equals -4' );
 	t.equal( round( 4.2 ), 4, 'equals 4' );
 	t.equal( round( 9.99999 ), 10, 'equals 10' );
 	t.equal( round( 9.5 ), 10, 'equals 10' );
