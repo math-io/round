@@ -26,8 +26,20 @@ Rounds a `numeric` value to the nearest `integer`.
 var val = round( -4.2 );
 // returns -4
 
+val = round( -4.5 );
+// returns -4
+
+val = round( -4.6 );
+// returns -5
+
 val = round( 9.99999 );
 // returns 10
+
+val = round( 9.5 );
+// returns 10
+
+val = round( 9.2 );
+// returns 9
 
 val = round( 0 );
 // returns 0
